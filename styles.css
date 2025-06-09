@@ -1,0 +1,32 @@
+body { 
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 40px;
+    width: page;
+    background-color: red;
+}
+.main {
+    flex: 1;
+    border: 10px;
+    border-color: red;
+
+    display: flex;
+    flex-direction: column;
+
+} 
+.main-blue, .main-white, .main-grey, .main-bottom {
+   flex: auto;
+    height: 200px;
+    width: page;
+    background-color: aqua;
+}
+.footer {
+    height: 40px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
