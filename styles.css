@@ -150,7 +150,7 @@ h1{
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 60px;
     margin: 50px 10px;
     border-radius: 6px;
 }
@@ -169,13 +169,15 @@ h1{
     color: #f9faf8;
 }
 .main-4-text {
-    font-size: 12px;
+    font-size: 18px;
     color: #b3c0d2;
 }
 .main-4-button {
     color: #f9faf8;
-    border: 6px #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
     border-radius: 6px;
+    padding: 5px 20px;
 }
 .footer {
     height: 40px;
